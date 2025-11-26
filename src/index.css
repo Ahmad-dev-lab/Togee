@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+
+
+/* Swiper arrows hidden by default */
+.swiper-button-next,
+.swiper-button-prev {
+  font-size:12px;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  color: white; /* arrow ka color */
+  transform: scale(0.8); /* thoda chota */
+}
+
+/* Jab parent (Swiper container) par hover kare to arrows visible */
+.group:hover .swiper-button-next,
+.group:hover .swiper-button-prev {
+  opacity: 1;
+  transform: scale(1); /* normal size */
+}
