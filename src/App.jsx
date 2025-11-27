@@ -7,11 +7,11 @@ import Categories from "./components/Categories";
 import JustForYou from "./components/JustForYou";
 import ProductGrid from "./components/ProductGrid";
 import AppDownloadBanner from "./components/AppDownloadBanner";
-import PaymentMethods from "./components/PaymentMethods"; // 👈 naya component
+import PaymentMethods from "./components/PaymentMethods";
 import Footer from "./components/Footer";
-import ProductDetail from "./pages/ProductDetail"; // 👈 product detail page
-import LoginForm from "./components/LoginForm"; // 👈 login form
-import SignUpForm from "./components/SignUpForm"; // 👈 signup form (agar banaya hai)
+import ProductDetail from "./pages/ProductDetail"; 
+import LoginForm from "./components/LoginForm"; 
+import SignUpForm from "./components/SignUpForm"; 
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
